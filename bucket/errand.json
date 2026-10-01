@@ -1,0 +1,18 @@
+{
+    "version": "0.7.0",
+    "description": "Personal job runner for machines you own (Windows runner)",
+    "homepage": "https://github.com/lydakis/errand",
+    "license": "MIT",
+    "notes": "Run `errand setup` to start the runner, and again after each update.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lydakis/errand/releases/download/v0.7.0/errand_0.7.0_windows_amd64.zip",
+            "hash": "9abe942453131340337b4bc2daed657ebf9ec045c4c927f128f402924589a3b5"
+        },
+        "arm64": {
+            "url": "https://github.com/lydakis/errand/releases/download/v0.7.0/errand_0.7.0_windows_arm64.zip",
+            "hash": "c7e1d7024d0797e2ca81dbe75e4d907de29bd56aa41eca4fbe2d4d09b3ef2f0b"
+        }
+    },
+    "bin": "errand.exe"
+}
